@@ -1,0 +1,120 @@
+/* CSS Básico con temática BotW */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f1e1; /* Color pergamino */
+    color: #3e3a35;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2c3e50;
+    border-bottom: 4px solid #18b2c4; /* Azul Sheikah */
+    padding: 20px;
+    text-align: center;
+    color: #e4d8b4; /* Dorado claro */
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Estilos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #18b2c4;
+}
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* La cuadrícula de ingredientes */
+.ingredients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+.ingredient-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+.ingredient-card:hover {
+    transform: scale(1.05);
+    border-color: #18b2c4;
+}
+.ingredient-card img {
+    max-width: 80px;
+    height: auto;
+}
+.btn-submit {
+    background-color: #18b2c4;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn-submit:hover {
+    background-color: #138f9d;
+}
+.recipe-card {
+    background: #fff;
+    border: 2px solid #e4d8b4;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.recipe-title {
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 2px solid #18b2c4;
+    padding-bottom: 10px;
+}
+.mini-ingredients {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.mini-ingredient {
+    text-align: center;
+    font-size: 12px;
+}
+.mini-ingredient img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background: #f4f1e1;
+    border-radius: 50%;
+    padding: 5px;
+}
+.btn-new {
+    display: inline-block;
+    background-color: #18b2c4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
