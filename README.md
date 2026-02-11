@@ -26,8 +26,6 @@ Este proyecto fue desarrollado como práctica académica para demostrar competen
 
 ## 📸 Capturas de Pantalla
 
-*(Añade aquí pantallazos de tu aplicación)*
-
 | Creador de Recetas | Mis Recetas Guardadas |
 | :---: | :---: |
 | ![Crear Receta]([temp]) | ![Listado Recetas]([temp]) |
