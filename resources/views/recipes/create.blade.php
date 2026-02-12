@@ -11,7 +11,8 @@
 <body>
 
     <header>
-        <h1>#LOGO El Recetario Hyliano</h1>
+        <h1><img class="logo-header" src="{{ asset('img/recetario_hyliano.png') }}" alt="LOGO_RECETARIO_HYLIANO"> El
+            Recetario Hyliano</h1>
         <p>Selecciona ingredientes de la alforja y crea tu plato</p>
     </header>
     @if (session('success'))
@@ -32,6 +33,11 @@
         </div>
     @endif
 
+    <div style="text-align:center; margin: 20px 0;">
+        <a href="{{ route('recipes.index') }}" class="btn-volver">
+            Listado de Recetas
+        </a>
+    </div>
     <div class="container">
         <form action="{{ route('recipes.store') }}" method="POST">
 

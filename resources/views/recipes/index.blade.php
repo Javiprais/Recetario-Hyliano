@@ -9,7 +9,7 @@
 <body>
 
     <header>
-        <h1>📖 Mis Recetas Guardadas</h1>
+        <h1><img class="logo-header" src="{{ asset('img/logo_recetas.png') }}" alt="LOGO_RECETAS"> Mis Recetas Guardadas</h1>
         <p>Tu historial de cocina</p>
     </header>
 
