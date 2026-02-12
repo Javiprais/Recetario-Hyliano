@@ -34,8 +34,7 @@ A diferencia de un CRUD estándar, aquí no se duplica la base de datos de ingre
 
 1. **Clonar repositorio**
     ```bash
-    git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-    cd TU_REPOSITORIO
+    git clone https://github.com/Javiprais/Recetario-Hyliano.git
     ```
 2. **Instalar dependencias y entorno**
     ```bash
