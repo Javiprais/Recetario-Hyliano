@@ -28,7 +28,7 @@ Este proyecto fue desarrollado como práctica académica para demostrar competen
 
 | Creador de Recetas | Mis Recetas Guardadas |
 | :---: | :---: |
-| ![Crear Receta]([temp]) | ![Listado Recetas]([temp]) |
+| ![Crear Receta](screenshots/crear.png) | ![Listado Recetas](screenshots/lista.png) |
 
 ## 🚀 Instalación y Despliegue Local
 
